@@ -966,7 +966,7 @@ header .photography {
   opacity: 0.5;
   width: 30px;
   height: 20px;
-  background: url(../img/anna.svg) no-repeat;
+  background: url(../img/fox.svg) no-repeat;
   transition: all 0.2s ease-out;
 }
 header .photography:hover {

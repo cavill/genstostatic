@@ -102,7 +102,7 @@ $('header').waypoint(function() {
 //random bg image
 
 function rando() {
-	var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'];
+	var images = ['1.jpg', '2.jpg', '3.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg'];
 	$('header').css({
 		'background-image': 'url(assets/img/store_update/' + images[Math.floor(Math.random() * images.length)] + ')'
 	});
