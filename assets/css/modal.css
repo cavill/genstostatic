@@ -1,0 +1,58 @@
+/* Normal styles for the modal */
+#modal {
+	left:50%;
+	margin: 0 0 0 -180px;
+	opacity: 0;
+	position:fixed;
+
+	visibility: hidden;
+	width:360px;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+	/* Make the modal appear when targeted */
+	#modal.show {
+		opacity: 1;
+		z-index: 100;
+		visibility: visible;
+	}
+#modal .header,#modal .footer {
+	border-bottom: 1px solid #e7e7e7;
+	border-radius: 5px 5px 0 0;
+}
+	#modal .footer {
+		border:none;
+		border-top: 1px solid #e7e7e7;
+		border-radius: 0 0 5px 5px;
+	}
+#modal h2 {
+	margin:0;
+}
+#modal .btn {
+	float:right;
+}
+#modal .copy,#modal .header, #modal .footer {
+	padding:15px;
+}
+.modal-content {
+	background: #f7f7f7;
+	position: relative;
+	z-index: 100;
+	border-radius:5px;
+}
+#modal .copy {
+	background: #fff;
+}
+
+#modal .overlay {
+	background-color: red;
+	background: rgba(0,0,0,.5);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 90;
+	cursor: pointer;
+}
